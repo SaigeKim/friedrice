@@ -26,7 +26,7 @@ function draw() {
   }
 }
 
-function mouseClicked() {
+function touchStarted() {
   sizzle.play(); // Play the sizzle sound every time the mouse is clicked
   // Generate new rice particles
   for (let i = 0; i < 50; i++) {
