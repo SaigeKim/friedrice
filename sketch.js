@@ -5,7 +5,7 @@ let bottomPadding = 50;
 let gravity = 0.2;
 
 function preload() {
-  sizzle = loadSound("Fried Rice short.m4a"); // Load the sizzle sound file
+  sizzle = loadSound("Fried Rice short.mp3"); // Load the sizzle sound file
 }
 
 function setup() {
