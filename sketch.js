@@ -2,10 +2,10 @@ let sizzle; // Declare variable for the sizzle sound
 let riceParticles = [];
 let settledParticles = [];
 let bottomPadding = 50;
-let gravity = 0.2;
+let gravity = 0.1;
 
 function preload() {
-  sizzle = loadSound("Fried Rice short.mp3"); // Load the sizzle sound file
+  sizzle = loadSound("Fried Rice.mp3"); // Load the sizzle sound file
 }
 
 function setup() {
